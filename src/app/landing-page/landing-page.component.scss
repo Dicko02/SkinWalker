@@ -1,0 +1,28 @@
+.landing-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: #dad5ba;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: #4fbb6f 3px 3px 7px;
+    margin-right: 20px;
+    outline: none;
+    font-size: 25px;
+    font-weight: 500;
+    &:active {
+        transform: translate(1px, 1px);
+        box-shadow: #0f1a81 0 0 5px;
+    }
+    &:hover {
+        transform: translate(0.5px, 0.5px);
+        box-shadow: #0f7481 0.5 0.5 3px;
+        transition: transform 0.75s linear;
+        transition: box-shadow 0.75s ease-in-out;
+    }
+}

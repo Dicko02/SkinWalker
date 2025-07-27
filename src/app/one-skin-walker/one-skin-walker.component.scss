@@ -1,0 +1,41 @@
+.SkinWalkerCard{
+    box-sizing: border-box;
+    height: 25%;
+    width: 30%;
+    margin: 10px;
+    padding: 0;
+    border: 3px solid #eee6e6;
+    background-color: #4D5D53;
+
+    h1{
+        padding: 0;
+        margin: 3px;
+        color: #660808;
+        &:hover {
+            color: #f32525;
+            transition: color 0.75s ease-in-out;
+        }
+    }
+
+    img{
+        width: 100%;
+
+    }
+
+    .habitat{
+        padding: 0;
+        margin: 3px;
+        color: #0d0e1d;
+        &:hover {
+            color: #2585f3;
+            transition: color 0.75s ease-in-out;
+        }
+    }
+
+    p{
+        font-size: medium;
+        margin: 3px;
+        color: #FFFFF7;
+    }
+
+}
