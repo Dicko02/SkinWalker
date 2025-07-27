@@ -1,0 +1,9 @@
+<div class="container">
+    @for (model of models; track model.id) {
+        <div class="item-wrapper">
+            <div class="item">
+                <app-one-skin-walker [model] = "model"/>
+            </div>
+        </div>
+    }
+</div>
